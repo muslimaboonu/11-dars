@@ -1,0 +1,139 @@
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/young-serif-v2-latin-regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+  background-color: #f3e5d7;
+  padding-top: 123px;
+  padding-bottom: 123px;
+}
+.divider {
+  margin-bottom: 32px;
+  border: 1px solid#E3DDD7;
+  border-bottom: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 776px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.main-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  color: #312e2c;
+  margin-bottom: 24px;
+}
+.intro-content {
+  margin-bottom: 32px;
+}
+.preparation-time {
+  padding: 28px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.preparation-time-title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #7a284e;
+}
+.ingredients {
+  margin-bottom: 32px;
+}
+
+.ingredients-list {
+  margin-left: 16px;
+}
+.ingredients-list,
+.preparation-time-list {
+  list-style: disc;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+.ingredients-list:not(:last-child),
+.preparation-time-list:not(:last-child),
+.instructions-list:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.ingredients-title,
+.instructions-title {
+  font-size: 28px;
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  margin-bottom: 24px;
+  line-height: 28px;
+  color: #854632;
+}
+
+.instructions {
+}
+
+.instructions-list {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+.instructions-item {
+  list-style: decimal;
+}
